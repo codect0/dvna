@@ -2,7 +2,7 @@ var db = require('../models')
 var LocalStrategy = require('passport-local').Strategy
 var bCrypt = require('bcrypt')
 
-
+#test
 module.exports = function (passport) {
 
     passport.serializeUser(function (user, done) {
