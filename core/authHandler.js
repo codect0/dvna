@@ -9,7 +9,7 @@ module.exports.isAuthenticated = function (req, res, next) {
 	}
 	res.redirect('/login');
 }
-
+#test3
 module.exports.isNotAuthenticated = function (req, res, next) {
 	if (!req.isAuthenticated())
 		return next();
